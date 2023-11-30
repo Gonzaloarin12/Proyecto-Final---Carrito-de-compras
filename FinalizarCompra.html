@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CARRITO</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="FinalizarCompra.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11" defer></script>
+    <script src="./JS/finalizarCompra.js" defer></script>
+    <script src="./JS/carritoContenido.js" defer></script>
+    <script src="./JS/carrito.js" defer></script>
+</head>
+<body>
+<header class="">
+    <a href="./index.html"><img src="./img/logo.png" id="logo" alt=""></a>
+    <div>
+        <a href="./carrito.html"><img class="img-carrito" src="./img/carrito.png" alt="numerito"><span id="numerito">0</span></a>
+    </div>
+</header>
+
+<main class="realiza-compra">
+    <div class="contenedor-finalizarCompra">
+        <h1 class="finalizarCompra-titulo">Registra tus datos para completar tu compra</h1>
+        <h4 class="finalizarCompra-subtitulo">Todos los campos son obligatorios!</h4>
+
+        <form id="formulario" class="formulario">
+            <div class="formulario-general">
+                <div class="formulario-nombre">
+                    <input type="text" name="nombre" id="nombre" placeholder="nombre">
+                    <label for="nombre"></label>
+                </div>
+                <div class="formulario-apellido">
+                    <input type="text" name="apellido" id="apellido" placeholder="apellido">
+                    <label for="apellido"></label>
+                </div>
+                <div class="formulario-mail">
+                    <input type="email" name="email" id="email" placeholder="email">
+                    <label for="email"></label>
+                </div>
+                <div class="formulario-telefono">
+                    <input type="number" name="telefono" id="telefono" placeholder="teléfono">
+                    <label for="telefono"></label>
+                </div>
+                <div class="forma-de-pago">
+                    <p>¿Cuál será su forma de pago?</p>
+                    <select name="metodos" id="metodos" class="metodos-pago">
+                        <option value="efectivo">efectivo</option>
+                        <option value="credito">crédito</option>
+                        <option value="debito" selected>débito</option>
+                    </select>
+                </div>
+                <div class="botones">
+                    <button id="finalizarCompra" class="estilo-boton">comprar</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</main>
+
+
+
+
+<footer>
+    <h5>Creado por Gonzalo Arin</h5>
+    <a href="https://github.com/"><h5>Mi Github</h5></a>
+</footer>
+
+
+<script></script>
+</body>
+</html>

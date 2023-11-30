@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.realiza-compra {
+    text-align: center;
+}
+
+.contenedor-finalizarCompra {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.finalizarCompra-titulo {
+    margin-bottom: 10px;
+}
+
+.finalizarCompra-subtitulo {
+    margin-bottom: 20px;}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario-general {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario input,
+.formulario select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.formulario__button__style {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.formulario__button__style:hover {
+    background-color: #45a049;
+}
+
+.botones {
+    margin-top: 20px;
+}
