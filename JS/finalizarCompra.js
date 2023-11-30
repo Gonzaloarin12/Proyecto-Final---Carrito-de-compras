@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function () {
         confirmButtonText: 'OK'
     }).then(() => {
         // Redirigir a la página de inicio
-        window.location.href = '/index.html';
+        window.location.href = './index.html';
         actualizarNumerito()
         reiniciar ()
     });
